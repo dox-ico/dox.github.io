@@ -3,6 +3,7 @@ module.exports = defineConfig({
   transpileDependencies: true
 })
 module.exports = {
-    publicPath: '/vue-app', //リポジトリ名を指定
+    publicPath: './', //リポジトリ名を指定
+	assetsDir: './',
     outputDir: 'docs', //GitHubPagesで公開するにはdistではなくdocs配下にコンパイルする
 }
